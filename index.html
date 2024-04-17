@@ -3,6 +3,11 @@
   <head>
     <meta name="author" content="Jacob Nelson">
     <title>Meeting Minutes</title>
+    .myDiv {
+        border: 5px outset red;
+        background-color: lightblue;
+        text-align: center;
+    }
   </head>
   <body>
     <link rel="icon" type="image/x-icon" href="/screenshots/favicon-32x32.png">
@@ -25,9 +30,12 @@
         </ul>
     </h3>
     </header>
+    <section>
     <p style="width: 500px;">The Purpose of this meeting was to <b>A</b>: Formally introduce everyone, get everyone
     on the same page, ask about preferences in project development, etc. and <b>B</b>: get our 
     group contract and team building work done for the relevant assignments given by the class. We also did our group bonding event right before I believe. <br> 
+    </p>
+    </section>
     <details>
         <summary>What is codenames?</summary>
         <p style="width: 500px;">Codenames is a team based game where one representative from each team becomes
@@ -36,6 +44,9 @@
         where the informant will have to choose a word that best matches as many of their own teams color as possible, and the agents will be given some time to discuss 
         which words on the board to select. once they lock in their selection of words, their colors are revealed. Every word belonging to a given team's color awards that team a point, etc.  </p>
     </details></p>
+
+    <hr>
+
     Because lab 2 requires a form tag, heres a sign in that does absolutely nothing lol <br><br>
     <form action="lol">
         <label for="fname">Your Cat's name:</label>
@@ -74,11 +85,53 @@
         <a href="/screenshots/cat1.JPG">Here's a cat</a> |
         <a href="/screenshots/cat2.JPG">another cat</a> |
     </nav>
+
+    <div class="myDiv">
+        <h2>Cats</h2>
+        <p>Cats are:</p>
+    </div>
+    <ol>
+        <li><b>Cute</b></li>
+        <li><em>Fluffy</em></li>
+        <li><i><span style="color:rgb(255, 2, 2)">Awesome</span></i></li>
+    </ol>
+    <form action="lol">
+        <p><label for="dfg">What is your favorite thing about cats?</label></p>
+        <textarea id="dfg" name="dfg" rows="4" cols="50">Idk</textarea>
+        <br>
+      </form>
+      
+    <form action="lol">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+      </form>
+    <a href="https://store.steampowered.com/app/553850/HELLDIVERS_2/">Here's my favorite game recently</a>
+    <img src="/screenshots/favicon-32x32.png">
     <br>
-    <form>
-        
-    </form>
-    <footer>
+    Instead of using "pretend meeting audio and video" for the lab 2 assignment, here's me dying horribly to a Charger in Helldivers 2
+    <br>
+    <br>
+    <audio controls>
+        <source src="media/audio.mp3">
+      Your browser does not support the audio element.
+      </audio>
+      <br>
+      <video width="320" height="240" controls>
+        <source src="/media/HELLDIVERS 2 2024.04.08 - 18.14.44.02.DVR - Trim.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+      <form action="/action_page.php" method="get">
+        <label for="bruh">How did this make you feel:</label>
+        <input list="bruhs" name="bruh" id="bruh">
+        <datalist id="bruhs">
+            <option value="Funny">
+            <option value="Mid">
+            <option value="Why is this here">
+        </datalist>
+        <br>
+        This entire lab was exhausting and stupid, I'm basically just putting random uses of html everywhere because there's so much to I need to use for the assignment but so little to actually use it on
+      </form>
+      <footer>
         <p>Author: Jacob Nelson</p>
     </footer>
   </body>
