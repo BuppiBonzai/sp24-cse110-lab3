@@ -6,3 +6,27 @@ h2 {
 body {
     background-color: powderblue;
 }
+/*Im going to use the attendance list to get a lot of the checklist done. 
+Also yes I am using css to make this page unreadable because
+I do not have the brainpower to think of good uses for any of these
+at the moment. Just like the last lab, I'm just filling out a fucking check list
+of css stuff to use when most of them are not immediately useful or bring any value
+whatsoever with regards to a meeting minutes. How many times are you realistically
+going to change a color in a meeting minutes, its literally just a recap of a meeting.
+Styling serves 0 purpose here other than to bruteforce our learning by giving us a 
+bunch of tedious chores, and why would you spend this much time on styling something as mundane as
+a recap of a meeting anyways. Rant over.*/
+.div1 {
+    color: #45db51;
+    background: hsl(50, 80%, 40%);
+    --idk: blue;
+}
+.div2 {
+    background-color: color(display-p3 1 0 0.331);
+    /* wtf even is this. why does this exist.*/
+    color: color-mix(in srgb, #34c9eb 20%, white);
+}
+.div3 {
+    color: var(--idk, red)
+    /*fallback demonstration*/
+}
