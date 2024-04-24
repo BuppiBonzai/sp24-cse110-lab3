@@ -1,0 +1,125 @@
+h2, h3 {
+    background-color: red;
+    font: verdana;
+    font-size: medium;
+}
+body {
+    background-color: powderblue;
+}
+/*Im going to use the attendance list to get a lot of the checklist done. 
+Also yes I am using css to make this page unreadable because
+I do not have the brainpower to think of good uses for any of these
+at the moment. Just like the last lab, I'm just filling out a fucking check list
+of css stuff to use when most of them are not immediately useful or bring any value
+whatsoever with regards to a meeting minutes. How many times are you realistically
+going to change a color in a meeting minutes, its literally just a recap of a meeting.
+Styling serves 0 purpose here other than to bruteforce our learning by giving us a 
+bunch of tedious chores, and why would you spend this much time on styling something as mundane as
+a recap of a meeting anyways. Rant over.*/
+.div1 {
+    color: #45db51;
+    background: hsl(50, 80%, 40%);
+    --idk: blue;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: dashed;
+    border-color: yellow;
+    border-width: 20px;  /*Lol*/
+    border-radius: 30px; /*actually kind of cool rounded edges*/
+    text-decoration: underline;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    max-width: 10em;
+    max-height: 10em;
+    position: static;
+
+    
+}
+.div2 {
+    background-color: color(display-p3 1 0 0.331);
+    /* wtf even is this. why does this exist.*/
+    color: color-mix(in srgb, #34c9eb 20%, white);
+    margin: 35px 20px 35px 20px;
+    position: relative;
+}
+.div3 {
+    color: var(--idk, red)
+    /*fallback demonstration*/
+}
+.div4 {
+    display: none;
+    /*I put evan's name in twice to show this just prevents the thing this class
+    is attached to from being displayed*/
+}
+.div5 {
+    display:block;
+    /*removes bullet point?*/
+}
+
+a:link {
+    color: red;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+.div6 {
+    display: flex;
+    /*messes up attendence but whatever lol*/
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.div7 {
+    display: grid;
+    /*dramatically lengthend input text boxes?*/
+}
+@media (max-width: 1250px) {
+    body {
+        background-color: aquamarine;
+        /*LOL now its bright green on my phone*/
+    }
+}
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+* {
+    columns: 1150px;
+}
+#fname {
+    text-align: center;
+    color: red;
+    /*makes text color red when */
+}
+[class|="top"] {
+    background: yellow;
+}
+.div6 .div5  {
+    background: yellow;
+}
+footer p:has(em) {
+    background: blue;
+}
+fieldset > legend {
+    background: green;
+}
+section + details {
+    color: green;
+    /*cant get this to work*/
+}
+header ~ section {
+    color: red;
+}
+/*finished I hope*/
+
