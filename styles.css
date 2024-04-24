@@ -1,4 +1,4 @@
-h2 {
+h2, h3 {
     background-color: red;
     font: verdana;
     font-size: medium;
@@ -93,5 +93,32 @@ a.button {
     color: buttontext;
     background-color: buttonface;
     text-decoration: none;
+}
+* {
+    columns: 1150px;
+}
+#fname {
+    text-align: center;
+    color: red;
+    /*makes text color red when */
+}
+[class|="top"] {
+    background: yellow;
+}
+.div6 .div5  {
+    background: yellow;
+}
+footer p:has(em) {
+    background: blue;
+}
+fieldset > legend {
+    background: green;
+}
+section + details {
+    color: green;
+    /*cant get this to work*/
+}
+header ~ section {
+    color: red;
 }
 
